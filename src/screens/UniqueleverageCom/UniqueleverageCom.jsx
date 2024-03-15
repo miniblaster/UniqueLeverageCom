@@ -5,6 +5,8 @@ import "./style.css";
 import "./newstyle.css";
 
 export const UniqueleverageCom = () => {
+  const [navOpen, setNavOpen] = React.useState(false);
+
   return (
     <div className="uniqueleverage-com">
       <div className="nav-container">
@@ -34,12 +36,43 @@ export const UniqueleverageCom = () => {
             </li>
           </ul>
         </nav>
+        <img src="/img/toggle.svg" className="toggle-nav" onClick={() => setNavOpen(!navOpen)} />
+        {navOpen && (
+          <div className="mobile-nav">
+            <ul className="nav-list">
+              <li>
+                <a className="navitem cursor-pointer">
+                  <span>What's Included</span>
+                  <img alt="Ri arrow drop down" src="/img/ri-arrow-drop-down-line.svg" />
+                </a>
+              </li>
+              <li>
+                <a className="navitem cursor-pointer">
+                  <span>Pricing</span>
+                  <img alt="Ri arrow drop down" src="/img/ri-arrow-drop-down-line.svg" />
+                </a>
+              </li>
+              <li>
+                <button className="default">
+                  Book a Demo
+                  <img src="/img/svg-9.svg" alt="" style={{ marginLeft: "10px" }} />
+                </button>
+              </li>
+            </ul>
+          </div>
+        )}
       </div>
       <div className="hero">
         <div className="herotext">
-          <div className="herotext1">Social Ads &amp;</div>
-          <div className="herotext2">Marketplace</div>
-          <div className="herotext3">For Dealers</div>
+          <div className="herotitle">
+            <div className="herotext1">Social Ads &amp;</div>
+            <div className="herotext2">Marketplace</div>
+            <div className="herotext3">For Dealers</div>
+          </div>
+          <div className="herotitle-md">
+            <div className="herotext1">Social Ads &amp; Marketplace</div>
+            <div className="herotext3">For Dealers</div>
+          </div>
           <div className="herotextsmall">
             How does this work? <span>First,</span> we want to get to know you,
             <br /> the dealership, and people.
@@ -145,9 +178,13 @@ export const UniqueleverageCom = () => {
           <div>
             <div className="sec2title">Target & Engage Shoppers on CarGurus, AutoTrader, etc.</div>
             <div className="sec2small mt-4 mb-2">
-              Unique Leverage Meta’s powerful targeting options and hone in on users who live near your dealership, are
-              in the market for a car, and match your ideal customer profile. Create localized ads to appear in their
-              feeds and drive traffic to your website or dealership over the competition.
+              Convert low-funnel shoppers into CRM leads with our VIN lead ads; designed to display relevant vehicles
+              (based on VINs) to in- market shoppers within 3-7 days of when they last engaged with a VIN – when they’re
+              the hottest. Capture VIN-specific test drive leads and send car shoppers information directly to your CRM
+              or Facebook Messenger.
+              <br />
+              <br />
+              With VIN Lead Ads, you’ll make it easy for customers to:
             </div>
             <div className="sec2radio">
               <div>
@@ -192,16 +229,23 @@ export const UniqueleverageCom = () => {
           <div className="sec3textradio">
             <div>
               <img src="/img/icon-8.svg" />
-              Business Page (Sponsored ads)
+              Popular Listing Websties
             </div>
             <div>
               <img src="/img/icon-8.svg" />
-              Connect leads with your CRM
+              Your Website Visitors
             </div>
             <div>
               <img src="/img/icon-8.svg" />
-              100% Account ownership
+              Dominate Locally!
             </div>
+          </div>
+          <div className="actions mb-4">
+            <button className="default">
+              Schedule a Demo
+              <img src="/img/svg-8.svg" alt="" style={{ marginLeft: "10px" }} />
+            </button>
+            <button className="secondary">Request Quote</button>
           </div>
         </div>
         <div className="sec3img">
@@ -282,7 +326,7 @@ export const UniqueleverageCom = () => {
       <div className="hrbarcontainer">
         <div className="hrbar"></div>
       </div>
-      <div className="p-5">
+      <div className="sec-support">
         <div className="sec6-top">
           <div className="sec6badge">
             <img src="/img/icon-13.svg" /> ABOUT US
@@ -365,7 +409,7 @@ export const UniqueleverageCom = () => {
       <div className="hrbarcontainer">
         <div className="hrbar"></div>
       </div>
-      <div className="p-5">
+      <div className="sec-faq">
         <div className="sec6-top">
           <div className="sec6badge">
             <img src="/img/icon-13.svg" /> YOU MAY ASK!
@@ -374,12 +418,18 @@ export const UniqueleverageCom = () => {
         </div>
         <div className="sec8-contents">
           <div className="sec8-left">
-            <div className="active-item d-flex justify-content-between p-3">
-              <div className="active d-flex align-items-center ">
-                <img src="/img/asked.svg" alt="" />
-                <p className="mb-0 ml-2">Do I have to pay for updates?</p>
+            <div className="active-item">
+              <div className="active-item d-flex justify-content-between p-3">
+                <div className="active d-flex align-items-center ">
+                  <img src="/img/asked.svg" alt="" />
+                  <p className="mb-0 ml-2">Do I have to pay for updates?</p>
+                </div>
+                <img src="/img/asked-chevron.svg" alt="" />
               </div>
-              <img src="/img/asked-chevron.svg" alt="" />
+              <p className="mobile-question mx-4">
+                No! We give constant updates to our software, add new features and you get it all for FREE! Because
+                UniqueLeverage is on the cloud, when we make an update or add new features, it's all yours!
+              </p>
             </div>
             <div className="item d-flex justify-content-between p-3">
               <div className="d-flex align-items-center ">
@@ -458,7 +508,7 @@ export const UniqueleverageCom = () => {
             <button className="secondary">Re-schedule</button>
           </div>
         </div>
-        <DateCalendar sx={{ marginLeft: "auto" }} />
+        <DateCalendar sx={{ marginLeft: "auto", sm: { mx: "auto" } }} />
       </div>
     </div>
   );
