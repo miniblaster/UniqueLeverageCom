@@ -15,19 +15,19 @@ export const UniqueleverageCom = () => {
         <nav>
           <ul className="nav-list">
             <li>
-              <a className="navitem">
+              <a className="navitem cursor-pointer">
                 <span>What's Included</span>
                 <img alt="Ri arrow drop down" src="/img/ri-arrow-drop-down-line.svg" />
               </a>
             </li>
             <li>
-              <a className="navitem">
+              <a className="navitem cursor-pointer">
                 <span>Pricing</span>
                 <img alt="Ri arrow drop down" src="/img/ri-arrow-drop-down-line.svg" />
               </a>
             </li>
             <li>
-              <a className="godemo">
+              <a className="godemo cursor-pointer">
                 <span>Book a Demo</span>
                 <img alt="Svg" src="/img/svg-9.svg" />
               </a>
@@ -41,7 +41,8 @@ export const UniqueleverageCom = () => {
           <div className="herotext2">Marketplace</div>
           <div className="herotext3">For Dealers</div>
           <div className="herotextsmall">
-            How does this work? <span>First,</span> we want to get to know you, the dealership, and people.
+            How does this work? <span>First,</span> we want to get to know you,
+            <br /> the dealership, and people.
           </div>
           <div className="actions">
             <button className="default">
@@ -101,7 +102,7 @@ export const UniqueleverageCom = () => {
                 <img alt="List item SVG" src="/img/list-item-svg-2.svg" />
                 30 minutes
               </div>
-              <div className="panelsubtitle">Ready to automate your workflow?</div>
+              <div className="panelsubtitle my-3">Ready to automate your workflow?</div>
               <div className="panelsubtext">
                 Book a free workflow exploration! Let’s explore the opportunities for automating your digital processes.
               </div>
@@ -114,7 +115,7 @@ export const UniqueleverageCom = () => {
                 <img alt="List item SVG" src="/img/list-item-svg-2.svg" />
                 30 minutes
               </div>
-              <div className="panelsubtitle">Unify your business processes</div>
+              <div className="panelsubtitle my-3">Unify your business processes</div>
               <div className="panelsubtext">
                 Increase productivity, enhance your team’s collaboration, and take back control of your processes with
                 monday.com
@@ -128,7 +129,7 @@ export const UniqueleverageCom = () => {
                 <img alt="List item SVG" src="/img/list-item-svg-2.svg" />
                 30 minutes
               </div>
-              <div className="panelsubtitle">Ready to automate your workflow?</div>
+              <div className="panelsubtitle my-3">Ready to automate your workflow?</div>
               <div className="panelsubtext">
                 Book a free workflow exploration! Let’s explore the opportunities for automating your digital processes.
               </div>
@@ -143,27 +144,27 @@ export const UniqueleverageCom = () => {
         <div className="sec2text">
           <div>
             <div className="sec2title">Target & Engage Shoppers on CarGurus, AutoTrader, etc.</div>
-            <div className="sec2small">
+            <div className="sec2small mt-4 mb-2">
               Unique Leverage Meta’s powerful targeting options and hone in on users who live near your dealership, are
               in the market for a car, and match your ideal customer profile. Create localized ads to appear in their
               feeds and drive traffic to your website or dealership over the competition.
             </div>
             <div className="sec2radio">
               <div>
-                <img src="/img/icon-11.svg" alt="" />
+                <img className="mr-3" src="/img/icon-11.svg" alt="" />
                 Popular Listing Websites
               </div>
               <div>
-                <img src="/img/icon-10.svg" alt="" />
+                <img className="mr-3" src="/img/icon-10.svg" alt="" />
                 Your Website Visitors
               </div>
               <div>
-                <img src="/img/icon-9.svg" alt="" />
+                <img className="mr-3" src="/img/icon-9.svg" alt="" />
                 Dominate Locally!
               </div>
             </div>
           </div>
-          <div className="actions">
+          <div className="actions mt-3">
             <button className="default">
               Schedule a Demo
               <img src="/img/svg-8.svg" alt="" style={{ marginLeft: "10px" }} />
