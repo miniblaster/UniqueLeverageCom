@@ -43,15 +43,12 @@ export const UniqueleverageCom = () => {
           <div className="herotextsmall">
             How does this work? <span>First,</span> we want to get to know you, the dealership, and people.
           </div>
-          <div className="buttonset">
-            <a href="#" className="selected">
+          <div className="actions">
+            <button className="default">
               Schedule a Demo
-              <img src="/img/svg-8.svg" alt="" />
-            </a>
-            <a href="#">
-              Request Quote
-              <img src="/img/svg-8.svg" alt="" />
-            </a>
+              <img src="/img/svg-8.svg" alt="" style={{ marginLeft: "10px" }} />
+            </button>
+            <button className="secondary">Request Quote</button>
           </div>
         </div>
         <div className="heroimg">
@@ -166,15 +163,12 @@ export const UniqueleverageCom = () => {
               </div>
             </div>
           </div>
-          <div className="buttonset">
-            <a href="#" className="selected">
+          <div className="actions">
+            <button className="default">
               Schedule a Demo
-              <img src="/img/svg-8.svg" alt="" />
-            </a>
-            <a href="#">
-              Request Quote
-              <img src="/img/svg-8.svg" alt="" />
-            </a>
+              <img src="/img/svg-8.svg" alt="" style={{ marginLeft: "10px" }} />
+            </button>
+            <button className="secondary">Request Quote</button>
           </div>
         </div>
         <div className="sec2img">
@@ -247,15 +241,12 @@ export const UniqueleverageCom = () => {
               </div>
             </div>
           </div>
-          <div className="buttonset">
-            <a href="#" className="selected">
+          <div className="actions">
+            <button className="default">
               Schedule a Demo
-              <img src="/img/svg-8.svg" alt="" />
-            </a>
-            <a href="#">
-              Request Quote
-              <img src="/img/svg-8.svg" alt="" />
-            </a>
+              <img src="/img/svg-8.svg" alt="" style={{ marginLeft: "10px" }} />
+            </button>
+            <button className="secondary">Request Quote</button>
           </div>
         </div>
       </div>
@@ -462,8 +453,8 @@ export const UniqueleverageCom = () => {
             30 minutes
           </div>
           <div className="actions">
-            <button className="add">Add to Calendar</button>
-            <button className="reschedule">Re-schedule</button>
+            <button className="default">Add to Calendar</button>
+            <button className="secondary">Re-schedule</button>
           </div>
         </div>
         <DateCalendar sx={{ marginLeft: "auto" }} />

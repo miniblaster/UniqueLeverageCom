@@ -824,7 +824,7 @@ nav ul li a.godemo img {
     padding-top: 24px;
     border-top: 1px solid #5B6C7633;
 }
-.sec9 .actions .add {
+button.default {
     width: 200px;
     padding: 12px;
     margin-right: 20px;
@@ -834,7 +834,7 @@ nav ul li a.godemo img {
     background-color: #1B74E4;
     cursor: pointer;
 }
-.sec9 .actions .reschedule {
+button.secondary {
     width: 200px;
     padding: 12px;
     border: none;
