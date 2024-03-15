@@ -1,0 +1,66 @@
+.FAQ-section {
+  align-items: flex-start;
+  box-shadow: 0px 0px 1px 1px #00000026;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  position: relative;
+}
+
+.FAQ-section .frame {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.FAQ-section .div {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.FAQ-section .ellipse {
+  border-radius: 12px;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.FAQ-section .text {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  width: 520px;
+}
+
+.FAQ-section .akar-icons-chevron {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.FAQ-section.hover {
+  background-color: #fafbff;
+}
+
+.FAQ-section.default {
+  background-color: #ffffff;
+}
+
+.FAQ-section.hover .ellipse {
+  background-color: var(--iris-100);
+}
+
+.FAQ-section.default .ellipse {
+  background-color: var(--iris-60);
+}

@@ -1,0 +1,2443 @@
+/* .uniqueleverage-com {
+  background-color: #ffffff;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.uniqueleverage-com .div-2 {
+  background-color: #ffffff;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  overflow: hidden;
+}
+
+.uniqueleverage-com .frame-2 {
+  height: 40px;
+  left: 40px;
+  
+  top: 20px;
+  max-width: 1360px;
+  float: left;
+  width: 100%;
+}
+
+.uniqueleverage-com .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  gap: 3.44px;
+  max-width: 600px;
+}
+
+.uniqueleverage-com .group {
+  height: 39px;
+  position: relative;
+  width: 39px;
+}
+
+.uniqueleverage-com .img {
+  height: 28px;
+  left: 4px;
+  
+  top: 5px;
+  width: 31px;
+}
+
+.uniqueleverage-com .text-wrapper {
+  color: #153a59;
+  font-family: "Overpass", Helvetica;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.uniqueleverage-com .frame-4 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  left: 857px;
+  
+  top: 8px;
+}
+
+.uniqueleverage-com .text-wrapper-2 {
+  color: #1f2429;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.uniqueleverage-com .ri-arrow-drop-down {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.uniqueleverage-com .frame-5 {
+  align-items: center;
+  display: inline-flex;
+  gap: 6px;
+  justify-content: center;
+  
+}
+
+.uniqueleverage-com div.link {
+  background-color: #1b74e4;
+  border-radius: 4px;
+  height: 40px;
+  
+  width: 162px;
+  display: inline-flex;
+  float: right;
+}
+
+.uniqueleverage-com .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Raleway", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  height: 24px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+  width: 102px;
+}
+
+.uniqueleverage-com .SVG {
+  height: 13px;
+  left: 130px;
+  
+  top: 12px;
+  width: 16px;
+}
+
+.uniqueleverage-com .main-section {
+  background-color: #5b6c7633;
+  height: 1px;
+  left: 130px;
+  
+  top: 710px;
+  width: 1181px;
+}
+
+.uniqueleverage-com .main-section-2 {
+  background-color: #5b6c7633;
+  height: 1px;
+  left: 130px;
+  
+  top: 994px;
+  width: 1180px;
+}
+
+.uniqueleverage-com .frame-6 {
+  align-items: center;
+  display: inline-flex;
+  gap: 60px;
+  left: 67px;
+  
+  top: 90px;
+}
+
+.uniqueleverage-com .frame-7 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 23px;
+  position: relative;
+}
+
+.uniqueleverage-com .heading-the-future {
+  color: transparent;
+  font-family: "Overpass", Helvetica;
+  font-size: 76px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 91.2px;
+  margin-top: -1px;
+  position: relative;
+  width: 656px;
+}
+
+.uniqueleverage-com .span {
+  color: #153a59;
+}
+
+.uniqueleverage-com .text-wrapper-4 {
+  color: #1b74e4;
+}
+
+.uniqueleverage-com .how-does-this-work {
+  color: #2f3942;
+  font-family: "Overpass", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: relative;
+  width: fit-content;
+}
+
+.uniqueleverage-com .text-wrapper-5 {
+  color: #2f3942;
+  font-family: "Overpass", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.uniqueleverage-com .text-wrapper-6 {
+  font-weight: 600;
+}
+
+.uniqueleverage-com .buttons {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 15px;
+  position: relative;
+}
+
+.uniqueleverage-com .button-schedule-a {
+  background-color: #1b74e4;
+  border-radius: 6px;
+  height: 52px;
+  position: relative;
+  width: 195.57px;
+}
+
+.uniqueleverage-com .text-wrapper-7 {
+  color: #fbfbfb;
+  font-family: "Overpass", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 18px;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: 18px;
+  
+  text-align: center;
+  top: 17px;
+  white-space: nowrap;
+}
+
+.uniqueleverage-com .SVG-2 {
+  height: 13px;
+  left: 170px;
+  
+  top: 20px;
+  width: 6px;
+}
+
+.uniqueleverage-com .button-request-quote {
+  background-color: #fafbff;
+  border-radius: 6px;
+  height: 52px;
+  position: relative;
+  width: 195.57px;
+}
+
+.uniqueleverage-com .text-wrapper-8 {
+  color: #2f3942;
+  font-family: "Overpass", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 18px;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: 18px;
+  
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+}
+
+.uniqueleverage-com .group-2 {
+  height: 589.2px;
+  position: relative;
+  width: 584.42px;
+}
+
+.uniqueleverage-com .heading-access-to-wrapper {
+  height: 34px;
+  left: 380px;
+  
+  top: 771px;
+  width: 680px;
+}
+
+.uniqueleverage-com .heading-access-to {
+  color: transparent;
+  font-family: "Overpass", Helvetica;
+  font-size: 24px;
+  font-weight: 800;
+  height: 34px;
+  left: 169px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+}
+
+.uniqueleverage-com .frame-8 {
+  align-items: center;
+  display: inline-flex;
+  left: 72px;
+  
+  top: 845px;
+}
+
+.uniqueleverage-com .image {
+  height: 89px;
+  position: relative;
+  width: 324px;
+}
+
+.uniqueleverage-com .div-background-color {
+  background-color: #183355;
+  border-radius: 24px;
+  height: 796px;
+  left: 72px;
+  
+  top: 1055px;
+  width: 1296px;
+}
+
+.uniqueleverage-com .overlap-group {
+  height: 788px;
+  position: relative;
+  top: 54px;
+  width: 1248px;
+}
+
+.uniqueleverage-com .img-2 {
+  height: 227px;
+  left: 0;
+  
+  top: 561px;
+  width: 663px;
+}
+
+.uniqueleverage-com .frame-9 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 34px;
+  left: 47px;
+  
+  top: 0;
+}
+
+.uniqueleverage-com .frame-10 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.uniqueleverage-com .SVG-3 {
+  height: 15.76px;
+  position: relative;
+  width: 22.4px;
+}
+
+.uniqueleverage-com .unique-leverage {
+  color: #ffffff;
+  font-family: "Overpass", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.uniqueleverage-com .heading-reach-the {
+  color: #fbfbfb;
+  font-family: "Overpass", Helvetica;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 57.6px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.uniqueleverage-com .p {
+  color: #fbfbfb;
+  font-family: "Overpass", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: relative;
+  text-align: center;
+  width: 763px;
+}
+
+.uniqueleverage-com .frame-11 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 41px;
+  position: relative;
+}
+
+.uniqueleverage-com .div-w-node {
+  background-color: #ffffff;
+  border-radius: 14px;
+  height: 398px;
+  position: relative;
+  width: 373px;
+}
+
+.uniqueleverage-com .text-wrapper-9 {
+  color: #2f3942;
+  font-family: "Overpass", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 60px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  
+  top: 297px;
+  width: 317px;
+}
+
+.uniqueleverage-com .text-wrapper-10 {
+  color: #153a59;
+  font-family: "Overpass", Helvetica;
+  font-size: 20px;
+  font-weight: 800;
+  height: 25px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  
+  top: 259px;
+}
+
+.uniqueleverage-com .div-elementor-widget {
+  background-color: #f5f7fb;
+  border-radius: 7px;
+  height: 38px;
+  left: 22px;
+  
+  top: 209px;
+  width: 148px;
+}
+
+.uniqueleverage-com .frame-12 {
+  align-items: center;
+  display: inline-flex;
+  gap: 7px;
+  left: 15px;
+  position: relative;
+  top: 8px;
+}
+
+.uniqueleverage-com .list-item-SVG {
+  height: 22px;
+  position: relative;
+  width: 22px;
+}
+
+.uniqueleverage-com .list-item-minutes {
+  color: #3c425a;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.uniqueleverage-com .text-wrapper-11 {
+  color: #2f3942;
+  font-family: "Overpass", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 60px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  
+  top: 297px;
+  width: 340px;
+}
+
+.uniqueleverage-com .main-section-3 {
+  background-color: #5b6c7633;
+  height: 1px;
+  left: 130px;
+  
+  top: 1911px;
+  width: 1181px;
+}
+
+.uniqueleverage-com .main-section-4 {
+  background-color: #5b6c7633;
+  height: 1px;
+  left: 130px;
+  
+  top: 3423px;
+  width: 1181px;
+}
+
+.uniqueleverage-com .main-section-5 {
+  background-color: #5b6c7633;
+  height: 1px;
+  left: 130px;
+  
+  top: 2650px;
+  width: 1181px;
+}
+
+.uniqueleverage-com .main-section-6 {
+  background-color: #5b6c7633;
+  height: 1px;
+  left: 130px;
+  
+  top: 4161px;
+  width: 1181px;
+}
+
+.uniqueleverage-com .main-section-7 {
+  background-color: #5b6c7633;
+  height: 1px;
+  left: 130px;
+  
+  top: 4856px;
+  width: 1181px;
+}
+
+.uniqueleverage-com .main-section-8 {
+  background-color: #5b6c7633;
+  height: 1px;
+  left: 130px;
+  
+  top: 5724px;
+  width: 1181px;
+}
+
+.uniqueleverage-com .main-section-9 {
+  background-color: #5b6c7633;
+  height: 1px;
+  left: 130px;
+  
+  top: 6560px;
+  width: 1181px;
+}
+
+.uniqueleverage-com .main-section-10 {
+  background-color: #5b6c7633;
+  height: 1px;
+  left: 130px;
+  
+  top: 7476px;
+  width: 1181px;
+}
+
+.uniqueleverage-com .frame-13 {
+  align-items: center;
+  display: inline-flex;
+  gap: 30px;
+  left: 72px;
+  
+  top: 1972px;
+}
+
+.uniqueleverage-com .frame-14 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  position: relative;
+}
+
+.uniqueleverage-com .frame-15 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.uniqueleverage-com .heading-reach-the-2 {
+  color: #153a59;
+  font-family: "Overpass", Helvetica;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 681px;
+}
+
+.uniqueleverage-com .frame-16 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.uniqueleverage-com .text-wrapper-12 {
+  color: #2f3942;
+  font-family: "Overpass", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  width: 670px;
+}
+
+.uniqueleverage-com .frame-17 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  justify-content: center;
+  position: relative;
+}
+
+.uniqueleverage-com .icon {
+  height: 25px;
+  position: relative;
+  width: 23.91px;
+}
+
+.uniqueleverage-com .text-wrapper-13 {
+  color: #21282d;
+  font-family: "Overpass", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 229px;
+}
+
+.uniqueleverage-com .text-wrapper-14 {
+  color: #21282d;
+  font-family: "Overpass", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.uniqueleverage-com .facebook-instagram {
+  background-color: #fafbff;
+  border-radius: 10px;
+  height: 618px;
+  position: relative;
+  width: 585px;
+}
+
+.uniqueleverage-com .overlap-wrapper {
+  background-color: #183355;
+  border-radius: 24px;
+  height: 652px;
+  left: 72px;
+  overflow: hidden;
+  
+  top: 2711px;
+  width: 1296px;
+}
+
+.uniqueleverage-com .overlap {
+  height: 601px;
+  left: 60px;
+  position: relative;
+  top: 51px;
+  width: 1236px;
+}
+
+.uniqueleverage-com .img-3 {
+  height: 165px;
+  left: 573px;
+  
+  top: 436px;
+  width: 663px;
+}
+
+.uniqueleverage-com .frame-18 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 0;
+  
+  top: 0;
+}
+
+.uniqueleverage-com .heading-reach-the-3 {
+  color: #fbfbfb;
+  font-family: "Overpass", Helvetica;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 648px;
+}
+
+.uniqueleverage-com .text-wrapper-15 {
+  color: #fbfbfb;
+  font-family: "Overpass", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  width: 627px;
+}
+
+.uniqueleverage-com .text-wrapper-16 {
+  color: #ffffff;
+  font-family: "Overpass", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.uniqueleverage-com .facebook-instagram-wrapper {
+  height: 548px;
+  left: 677px;
+  
+  top: 0;
+  width: 509px;
+}
+
+.uniqueleverage-com .facebook-instagram-2 {
+  background-color: #ffffff;
+  background-image: url(../../../static/img/facebook-instagram-automotive-ad-targeting-awareness-png-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  height: 548px;
+}
+
+.uniqueleverage-com .frame-19 {
+  height: 628px;
+  left: 77px;
+  
+  top: 3484px;
+  width: 1286px;
+}
+
+.uniqueleverage-com .group-3 {
+  background-color: #fafbff;
+  border-radius: 10px;
+  height: 625px;
+  left: 0;
+  
+  top: 1px;
+  width: 552px;
+}
+
+.uniqueleverage-com .frame-20 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 607px;
+  
+  top: 0;
+}
+
+.uniqueleverage-com .heading-reach-the-4 {
+  color: #153a59;
+  font-family: "Overpass", Helvetica;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 679px;
+}
+
+.uniqueleverage-com .frame-21 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+.uniqueleverage-com .convert-low-funnel {
+  color: #2f3942;
+  font-family: "Overpass", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  width: 679px;
+}
+
+.uniqueleverage-com .overlap-group-wrapper {
+  background-color: #183355;
+  border-radius: 24px;
+  height: 574px;
+  left: 72px;
+  overflow: hidden;
+  
+  top: 4222px;
+  width: 1296px;
+}
+
+.uniqueleverage-com .overlap-2 {
+  height: 530px;
+  left: 50px;
+  position: relative;
+  top: 44px;
+  width: 1246px;
+}
+
+.uniqueleverage-com .img-4 {
+  height: 165px;
+  left: 583px;
+  
+  top: 365px;
+  width: 663px;
+}
+
+.uniqueleverage-com .frame-22 {
+  align-items: center;
+  display: inline-flex;
+  gap: 49px;
+  justify-content: center;
+  left: 0;
+  
+  top: 0;
+}
+
+.uniqueleverage-com .div-wrapper {
+  height: 500px;
+  position: relative;
+  width: 489px;
+}
+
+.uniqueleverage-com .facebook-instagram-3 {
+  background-color: #ffffff;
+  background-image: url(../../../static/img/facebook-instagram-automotive-ad-targeting-awareness-png.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.uniqueleverage-com .about {
+  height: 747px;
+  left: 72px;
+  
+  top: 4917px;
+  width: 1296px;
+}
+
+.uniqueleverage-com .SVG-4 {
+  height: 16px;
+  left: 0;
+  
+  top: 0;
+  width: 22px;
+}
+
+.uniqueleverage-com .about-us {
+  color: #5b6c76;
+  font-family: "Overpass", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 18px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 18px;
+  
+  top: -1px;
+  white-space: nowrap;
+  width: 124px;
+}
+
+.uniqueleverage-com .heading-how-we-do {
+  color: #153a59;
+  font-family: "Overpass", Helvetica;
+  font-size: 54px;
+  font-weight: 900;
+  height: 116px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 58px;
+  
+  top: 42px;
+  width: 656px;
+}
+
+.uniqueleverage-com .our-auto-advertising {
+  color: #2f3942;
+  font-family: "Overpass", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 56px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  
+  top: 176px;
+  width: 630px;
+}
+
+.uniqueleverage-com .frame-23 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 0;
+  
+  top: 263px;
+}
+
+.uniqueleverage-com .tablist-tab {
+  background-color: #153a59;
+  border-radius: 10px;
+  height: 167px;
+  overflow: hidden;
+  position: relative;
+  width: 531px;
+}
+
+.uniqueleverage-com .div-home-how-header {
+  height: 34px;
+  left: 24px;
+  
+  top: 24px;
+  width: 483px;
+}
+
+.uniqueleverage-com .heading-reach {
+  color: #fbfbfb;
+  font-family: "Overpass", Helvetica;
+  font-size: 24px;
+  font-weight: 800;
+  height: 34px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  
+  top: -2px;
+  white-space: nowrap;
+}
+
+.uniqueleverage-com .div-home-how-icon {
+  height: 28px;
+  left: 455px;
+  
+  top: 0;
+  width: 28px;
+}
+
+.uniqueleverage-com .div-home-how-line-wrapper {
+  background-color: #59c2ce;
+  border-radius: 80px;
+  height: 3px;
+  left: 5px;
+  position: relative;
+  top: 12px;
+  width: 18px;
+}
+
+.uniqueleverage-com .div-home-how-line {
+  background-color: #ffffff;
+  border-radius: 80px;
+  height: 18px;
+  left: 8px;
+  position: relative;
+  top: -8px;
+  transform: rotate(-90deg);
+  width: 3px;
+}
+
+.uniqueleverage-com .we-don-t-just-wrapper {
+  align-items: flex-start;
+  border-color: #ffffff80;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  flex-direction: column;
+  left: 24px;
+  
+  top: 67px;
+  width: 478px;
+}
+
+.uniqueleverage-com .we-don-t-just {
+  color: #fbfbfb;
+  font-family: "Overpass", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 91px;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  margin-top: -1px;
+  position: relative;
+  width: 457px;
+}
+
+.uniqueleverage-com .tablist-tab-2 {
+  background-color: #fbfbfb;
+  border-radius: 10px;
+  height: 81.6px;
+  overflow: hidden;
+  position: relative;
+  width: 530.9px;
+}
+
+.uniqueleverage-com .text-wrapper-17 {
+  color: #153a59;
+  font-family: "Overpass", Helvetica;
+  font-size: 24px;
+  font-weight: 800;
+  height: 34px;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  
+  top: 22px;
+  white-space: nowrap;
+}
+
+.uniqueleverage-com .div-home-how-icon-2 {
+  height: 28px;
+  left: 479px;
+  
+  top: 24px;
+  width: 28px;
+}
+
+.uniqueleverage-com .overlap-group-2 {
+  height: 18px;
+  left: 5px;
+  position: relative;
+  top: 5px;
+  width: 18px;
+}
+
+.uniqueleverage-com .div-home-how-line-2 {
+  background-color: #1b74e4;
+  border-radius: 80px;
+  height: 3px;
+  left: 0;
+  
+  top: 8px;
+  width: 18px;
+}
+
+.uniqueleverage-com .div-home-how-line-3 {
+  background-color: #1b74e4;
+  border-radius: 80px;
+  height: 18px;
+  left: 8px;
+  
+  top: 0;
+  width: 3px;
+}
+
+.uniqueleverage-com .tabpanel {
+  background-color: #fafbff;
+  border-radius: 14px;
+  height: 480px;
+  left: 656px;
+  
+  top: 263px;
+  width: 579px;
+}
+
+.uniqueleverage-com .frame-wrapper {
+  align-items: flex-start;
+  background-color: #183355;
+  border-radius: 24px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 72px;
+  overflow: hidden;
+  padding: 50px;
+  
+  top: 5785px;
+}
+
+.uniqueleverage-com .frame-24 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 34px;
+  position: relative;
+}
+
+.uniqueleverage-com .frame-25 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 34px;
+  position: relative;
+}
+
+.uniqueleverage-com .frame-26 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+}
+
+.uniqueleverage-com .latest-social-stats {
+  color: #fbfbfb;
+  font-family: "Overpass", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.uniqueleverage-com .heading-the {
+  color: #fbfbfb;
+  font-family: "Overpass", Helvetica;
+  font-size: 54px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 58px;
+  position: relative;
+  width: 651px;
+}
+
+.uniqueleverage-com .main-section-11 {
+  background-color: #ffffff80;
+  height: 1px;
+  position: relative;
+  width: 688px;
+}
+
+.uniqueleverage-com .frame-27 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+}
+
+.uniqueleverage-com .frame-28 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 7px;
+  position: relative;
+}
+
+.uniqueleverage-com .text-wrapper-18 {
+  color: #fbb330;
+  font-family: "Overpass", Helvetica;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 57.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.uniqueleverage-com .text-wrapper-19 {
+  color: #fbfbfb;
+  font-family: "Overpass", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: relative;
+  width: 235px;
+}
+
+.uniqueleverage-com .text-wrapper-20 {
+  color: #fbfbfb;
+  font-family: "Overpass", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: relative;
+  width: 166px;
+}
+
+.uniqueleverage-com .text-wrapper-21 {
+  color: #fbfbfb;
+  font-family: "Overpass", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: relative;
+  width: 239px;
+}
+
+.uniqueleverage-com .tabpanel-2 {
+  background-color: #ffffff;
+  border-radius: 14px;
+  height: 558px;
+  position: relative;
+  width: 474px;
+}
+
+.uniqueleverage-com .frame-29 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 44px;
+  left: 120px;
+  
+  top: 6621px;
+}
+
+.uniqueleverage-com .frame-30 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+}
+
+.uniqueleverage-com .frame-31 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.uniqueleverage-com .text-wrapper-22 {
+  color: #5b6c76;
+  font-family: "Overpass", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.uniqueleverage-com .heading-how-we-do-2 {
+  color: #153a59;
+  font-family: "Overpass", Helvetica;
+  font-size: 54px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 58px;
+  position: relative;
+  width: 656px;
+}
+
+.uniqueleverage-com .FAQ {
+  height: 592px;
+  position: relative;
+  width: 1200px;
+}
+
+.uniqueleverage-com .overlap-group-3 {
+  height: 592px;
+  position: relative;
+}
+
+.uniqueleverage-com .frame-32 {
+  background-color: #fafbff;
+  border-radius: 16px;
+  box-shadow: 0px 0px 4px 1px #00000026;
+  height: 592px;
+  left: 552px;
+  
+  top: 0;
+  width: 648px;
+}
+
+.uniqueleverage-com .frame-33 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  left: 120px;
+  position: relative;
+  top: 42px;
+}
+
+.uniqueleverage-com .heading {
+  color: var(--text-gray-900);
+  font-family: "Overpass", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  width: 472px;
+}
+
+.uniqueleverage-com .no-we-give-constant {
+  color: #000000;
+  font-family: "Overpass", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: relative;
+  width: 495px;
+}
+
+.uniqueleverage-com .frame-34 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 0;
+  
+  top: 32px;
+}
+
+.uniqueleverage-com .FAQ-section-instance {
+  flex: 0 0 auto !important;
+}
+
+.uniqueleverage-com .design-component-instance-node {
+  background-color: #1b74e4 !important;
+}
+
+.uniqueleverage-com .FAQ-section-2 {
+  color: #153a59 !important;
+  font-family: "Overpass", Helvetica !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+
+.uniqueleverage-com .FAQ-section-3 {
+  background-color: #c7e0ff !important;
+}
+
+.uniqueleverage-com .FAQ-section-4 {
+  color: #2f3942 !important;
+  font-family: "Overpass", Helvetica !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+.uniqueleverage-com .frame-35 {
+  align-items: center;
+  display: inline-flex;
+  gap: 120px;
+  justify-content: center;
+  left: 120px;
+  
+  top: 7537px;
+}
+
+.uniqueleverage-com .frame-36 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+  width: 520px;
+}
+
+.uniqueleverage-com .heading-how-we-do-3 {
+  color: #153a59;
+  font-family: "Overpass", Helvetica;
+  font-size: 54px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 58px;
+  margin-right: -136px;
+  position: relative;
+  width: 656px;
+}
+
+.uniqueleverage-com .frame-37 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 18px;
+  position: relative;
+}
+
+.uniqueleverage-com .frame-38 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 15px;
+  position: relative;
+}
+
+.uniqueleverage-com .users-on-this-page {
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 26.6px;
+  height: 53.2px;
+  overflow: hidden;
+  position: relative;
+  width: 53.2px;
+}
+
+.uniqueleverage-com .group-wrapper {
+  background-color: #1b74e4;
+  height: 53px;
+  width: 53px;
+}
+
+.uniqueleverage-com .img-wrapper {
+  height: 41px;
+  left: 7px;
+  position: relative;
+  top: 7px;
+  width: 41px;
+}
+
+.uniqueleverage-com .group-4 {
+  height: 30px;
+  left: 4px;
+  
+  top: 5px;
+  width: 33px;
+}
+
+.uniqueleverage-com .text-wrapper-23 {
+  color: #000000;
+  font-family: "Overpass", Helvetica;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.uniqueleverage-com .frame-39 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.uniqueleverage-com .frame-40 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+}
+
+.uniqueleverage-com .text-wrapper-24 {
+  color: #000000;
+  font-family: "Overpass", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.uniqueleverage-com .quality-used {
+  color: #00000099;
+  font-family: "Overpass", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: relative;
+  width: 463px;
+}
+
+.uniqueleverage-com .frame-41 {
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 34px;
+  justify-content: center;
+  position: relative;
+  width: 131px;
+}
+
+.uniqueleverage-com .frame-42 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 7px;
+  justify-content: center;
+  position: relative;
+}
+
+.uniqueleverage-com .vector {
+  height: 20.98px;
+  position: relative;
+  width: 20px;
+}
+
+.uniqueleverage-com .text-wrapper-25 {
+  color: #48596e;
+  font-family: "Overpass", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 28px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 83.58px;
+}
+
+.uniqueleverage-com .main-section-12 {
+  background-color: #5b6c7633;
+  height: 1px;
+  position: relative;
+  width: 465px;
+}
+
+.uniqueleverage-com .frame-43 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 23px;
+  position: relative;
+}
+
+.uniqueleverage-com .button-schedule-a-2 {
+  background-color: #1b74e4;
+  border-radius: 6px;
+  height: 52px;
+  position: relative;
+  width: 220px;
+}
+
+.uniqueleverage-com .text-wrapper-26 {
+  color: #fbfbfb;
+  font-family: "Overpass", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 18px;
+  left: 43px;
+  letter-spacing: 0;
+  line-height: 18px;
+  
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+}
+
+.uniqueleverage-com .button-schedule-a-3 {
+  background-color: #fafbff;
+  border-radius: 6px;
+  height: 52px;
+  position: relative;
+  width: 220px;
+}
+
+.uniqueleverage-com .text-wrapper-27 {
+  color: #2f3942;
+  font-family: "Overpass", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 18px;
+  left: 58px;
+  letter-spacing: 0;
+  line-height: 18px;
+  
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+}
+
+.uniqueleverage-com .frame-44 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.uniqueleverage-com .frame-45 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 37px;
+  position: relative;
+}
+
+.uniqueleverage-com .div-muibox-root {
+  height: 334px;
+  position: relative;
+  width: 586.65px;
+}
+
+.uniqueleverage-com .div-3 {
+  height: 334px;
+  left: 133px;
+  position: relative;
+  width: 320px;
+}
+
+.uniqueleverage-com .div-4 {
+  height: 34px;
+  left: 0;
+  
+  top: 14px;
+  width: 320px;
+}
+
+.uniqueleverage-com .presentation {
+  height: 30px;
+  left: 24px;
+  
+  top: 0;
+  width: 129px;
+}
+
+.uniqueleverage-com .div-5 {
+  height: 24px;
+  left: 0;
+  
+  top: 3px;
+  width: 95px;
+}
+
+.uniqueleverage-com .text-wrapper-28 {
+  color: #000000;
+  font-family: "Open Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 24px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  
+  top: -1px;
+  white-space: nowrap;
+  width: 89px;
+}
+
+.uniqueleverage-com .button-calendar-view {
+  height: 30px;
+  left: 95px;
+  
+  top: 0;
+  width: 34px;
+}
+
+.uniqueleverage-com .div-6 {
+  height: 34px;
+  left: 222px;
+  
+  top: -2px;
+  width: 86px;
+}
+
+.uniqueleverage-com .grid {
+  height: 280px;
+  left: 0;
+  
+  top: 54px;
+  width: 320px;
+}
+
+.uniqueleverage-com .row-columnheader {
+  color: #00000099;
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+  width: 7px;
+}
+
+.uniqueleverage-com .row-columnheader-2 {
+  color: #00000099;
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  left: 75px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+  width: 11px;
+}
+
+.uniqueleverage-com .row-columnheader-3 {
+  color: #00000099;
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+  width: 7px;
+}
+
+.uniqueleverage-com .row-columnheader-4 {
+  color: #00000099;
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  left: 154px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+  width: 11px;
+}
+
+.uniqueleverage-com .row-columnheader-5 {
+  color: #00000099;
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  left: 197px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+  width: 7px;
+}
+
+.uniqueleverage-com .row-columnheader-6 {
+  color: #00000099;
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  left: 237px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+  width: 7px;
+}
+
+.uniqueleverage-com .row-columnheader-7 {
+  color: #00000099;
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  left: 277px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+  width: 7px;
+}
+
+.uniqueleverage-com .rowgroup-wrapper {
+  height: 240px;
+  left: 0;
+  overflow: hidden;
+  
+  top: 40px;
+  width: 320px;
+}
+
+.uniqueleverage-com .rowgroup {
+  height: 242px;
+  position: relative;
+  width: 303px;
+}
+
+.uniqueleverage-com .row-SVG {
+  height: 8px;
+  left: 28px;
+  
+  top: 5px;
+  width: 8px;
+}
+
+.uniqueleverage-com .row-SVG-2 {
+  height: 8px;
+  left: 68px;
+  
+  top: 5px;
+  width: 8px;
+}
+
+.uniqueleverage-com .row-SVG-3 {
+  height: 8px;
+  left: 108px;
+  
+  top: 5px;
+  width: 8px;
+}
+
+.uniqueleverage-com .row-SVG-4 {
+  height: 8px;
+  left: 148px;
+  
+  top: 5px;
+  width: 8px;
+}
+
+.uniqueleverage-com .row-SVG-5 {
+  height: 8px;
+  left: 188px;
+  
+  top: 5px;
+  width: 8px;
+}
+
+.uniqueleverage-com .overlap-3 {
+  border-radius: 18px;
+  height: 36px;
+  left: 214px;
+  
+  top: 4px;
+  width: 36px;
+}
+
+.uniqueleverage-com .row-gridcell {
+  background-color: #ffffff;
+  border-radius: 18px;
+  height: 36px;
+  left: 0;
+  
+  top: 0;
+  width: 36px;
+}
+
+.uniqueleverage-com .text-wrapper-29 {
+  color: #00000061;
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+  width: 7px;
+}
+
+.uniqueleverage-com .row-SVG-6 {
+  height: 8px;
+  left: 14px;
+  
+  top: 1px;
+  width: 8px;
+}
+
+.uniqueleverage-com .overlap-4 {
+  border-radius: 18px;
+  height: 36px;
+  left: 254px;
+  
+  top: 4px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-5 {
+  border-radius: 18px;
+  height: 36px;
+  left: 14px;
+  
+  top: 44px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-6 {
+  border-radius: 18px;
+  height: 36px;
+  left: 54px;
+  
+  top: 44px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-7 {
+  border-radius: 18px;
+  height: 36px;
+  left: 94px;
+  
+  top: 44px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-group-4 {
+  border-radius: 18px;
+  height: 36px;
+  left: 134px;
+  
+  top: 44px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-8 {
+  border-radius: 18px;
+  height: 36px;
+  left: 174px;
+  
+  top: 44px;
+  width: 36px;
+}
+
+.uniqueleverage-com .row-gridcell-2 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #00000099;
+  border-radius: 18px;
+  height: 36px;
+  left: 0;
+  
+  top: 0;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-9 {
+  border-radius: 18px;
+  height: 36px;
+  left: 214px;
+  
+  top: 44px;
+  width: 36px;
+}
+
+.uniqueleverage-com .text-wrapper-30 {
+  color: #000000de;
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+  width: 7px;
+}
+
+.uniqueleverage-com .overlap-10 {
+  border-radius: 18px;
+  height: 36px;
+  left: 254px;
+  
+  top: 44px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-11 {
+  border-radius: 18px;
+  height: 36px;
+  left: 14px;
+  
+  top: 84px;
+  width: 36px;
+}
+
+.uniqueleverage-com .text-wrapper-31 {
+  color: #00000061;
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+  width: 14px;
+}
+
+.uniqueleverage-com .overlap-12 {
+  border-radius: 18px;
+  height: 36px;
+  left: 54px;
+  
+  top: 84px;
+  width: 36px;
+}
+
+.uniqueleverage-com .text-wrapper-32 {
+  color: #000000de;
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 20px;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+  width: 14px;
+}
+
+.uniqueleverage-com .overlap-13 {
+  border-radius: 18px;
+  height: 36px;
+  left: 94px;
+  
+  top: 84px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-14 {
+  border-radius: 18px;
+  height: 36px;
+  left: 134px;
+  
+  top: 84px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-15 {
+  border-radius: 18px;
+  height: 36px;
+  left: 174px;
+  
+  top: 84px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-16 {
+  border-radius: 18px;
+  height: 36px;
+  left: 214px;
+  
+  top: 84px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-17 {
+  border-radius: 18px;
+  height: 36px;
+  left: 254px;
+  
+  top: 84px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-18 {
+  border-radius: 18px;
+  height: 36px;
+  left: 14px;
+  
+  top: 124px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-19 {
+  border-radius: 18px;
+  height: 36px;
+  left: 54px;
+  
+  top: 124px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-20 {
+  border-radius: 18px;
+  height: 36px;
+  left: 94px;
+  
+  top: 124px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-21 {
+  border-radius: 18px;
+  height: 36px;
+  left: 134px;
+  
+  top: 124px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-22 {
+  border-radius: 18px;
+  height: 36px;
+  left: 174px;
+  
+  top: 124px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-23 {
+  border-radius: 18px;
+  height: 36px;
+  left: 214px;
+  
+  top: 124px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-24 {
+  border-radius: 18px;
+  height: 36px;
+  left: 254px;
+  
+  top: 124px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-25 {
+  border-radius: 18px;
+  height: 36px;
+  left: 14px;
+  
+  top: 164px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-26 {
+  border-radius: 18px;
+  height: 36px;
+  left: 54px;
+  
+  top: 164px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-27 {
+  border-radius: 18px;
+  height: 36px;
+  left: 94px;
+  
+  top: 164px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-28 {
+  border-radius: 18px;
+  height: 36px;
+  left: 134px;
+  
+  top: 164px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-29 {
+  border-radius: 18px;
+  height: 36px;
+  left: 174px;
+  
+  top: 164px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-30 {
+  border-radius: 18px;
+  height: 36px;
+  left: 214px;
+  
+  top: 164px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-31 {
+  border-radius: 18px;
+  height: 36px;
+  left: 254px;
+  
+  top: 164px;
+  width: 36px;
+}
+
+.uniqueleverage-com .overlap-32 {
+  border-radius: 18px;
+  height: 36px;
+  left: 14px;
+  
+  top: 204px;
+  width: 36px;
+}
+
+.uniqueleverage-com .row-SVG-7 {
+  height: 8px;
+  left: 68px;
+  
+  top: 205px;
+  width: 8px;
+}
+
+.uniqueleverage-com .row-SVG-8 {
+  height: 8px;
+  left: 108px;
+  
+  top: 205px;
+  width: 8px;
+}
+
+.uniqueleverage-com .row-SVG-9 {
+  height: 8px;
+  left: 148px;
+  
+  top: 205px;
+  width: 8px;
+}
+
+.uniqueleverage-com .row-SVG-10 {
+  height: 8px;
+  left: 188px;
+  
+  top: 205px;
+  width: 8px;
+}
+
+.uniqueleverage-com .row-SVG-11 {
+  height: 8px;
+  left: 228px;
+  
+  top: 205px;
+  width: 8px;
+}
+
+.uniqueleverage-com .row-SVG-12 {
+  height: 8px;
+  left: 268px;
+  
+  top: 205px;
+  width: 8px;
+}
+
+.uniqueleverage-com .div-muigrid-root {
+  height: 24px;
+  position: relative;
+  width: 586.65px;
+}
+
+.uniqueleverage-com .text-wrapper-33 {
+  color: #000000;
+  font-family: "Overpass", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 24px;
+  left: 179px;
+  letter-spacing: 0;
+  line-height: 24px;
+  
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 229px;
+}
+
+.uniqueleverage-com .div-muiinputbase {
+  border-radius: 4px;
+  height: 56px;
+  position: relative;
+  width: 570.65px;
+}
+
+.uniqueleverage-com .overlap-33 {
+  border-radius: 4px;
+  height: 61px;
+  position: relative;
+  top: -5px;
+  width: 571px;
+}
+
+.uniqueleverage-com .button-listbox {
+  border-radius: 4px;
+  height: 56px;
+  left: 0;
+  overflow: hidden;
+  
+  top: 5px;
+  width: 571px;
+}
+
+.uniqueleverage-com .text-wrapper-34 {
+  color: #000000de;
+  font-family: "Open Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 23px;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: 23px;
+  
+  top: 15px;
+  white-space: nowrap;
+}
+
+.uniqueleverage-com .SVG-5 {
+  height: 24px;
+  left: 540px;
+  
+  top: 21px;
+  width: 24px;
+}
+
+.uniqueleverage-com .fieldset {
+  border-radius: 4px;
+  height: 61px;
+  left: 0;
+  overflow: hidden;
+  
+  top: 0;
+  width: 571px;
+}
+
+.uniqueleverage-com .overlap-group-5 {
+  height: 65px;
+  position: relative;
+  top: -4px;
+}
+
+.uniqueleverage-com .fieldset-styles {
+  border: 1px solid;
+  border-color: #0000003b;
+  border-radius: 4px;
+  height: 56px;
+  left: 0;
+  
+  top: 9px;
+  width: 571px;
+}
+
+.uniqueleverage-com .label {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  gap: 10px;
+  height: 17px;
+  justify-content: center;
+  left: 30px;
+  
+  top: 0;
+  width: 67px;
+}
+
+.uniqueleverage-com .text-wrapper-35 {
+  color: #00000099;
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 17px;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 59px;
+}
+
+ @media screen and (max-width:1420px) {
+  .uniqueleverage-com .frame-2 {
+    height: 40px;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 20px;
+    width: 1360px;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .uniqueleverage-com .frame-2 div {float: left;}
+  
+  .uniqueleverage-com .frame-2 div.right {float: right;}
+} */ 
