@@ -4,6 +4,11 @@
     padding: 0px !important; */
 }
 
+.uniqueleverage-com {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .cursor-pointer {
     cursor: pointer;
 }
@@ -258,7 +263,7 @@ nav {
 }
 
 .mainmark img {
-    max-width: 324px;
+    width: 100%;
 }
 
 .section1 {
@@ -361,8 +366,6 @@ nav {
     }
 }
 
-
-
 .section2 {
     margin: 0 40px;
     vertical-align: middle;
@@ -418,7 +421,7 @@ nav {
     padding-bottom: 12px;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 833px) {
     .section2 {
         margin: 0 40px;
         vertical-align: middle;
@@ -485,7 +488,7 @@ nav {
     border-radius: 10px;
     margin-left: auto;
 }
-@media(max-width: 1240px) {
+@media(max-width: 833px) {
 
     .section3 {
         grid-template-columns: 100%;
@@ -496,18 +499,20 @@ nav {
 .section4 {
     margin: 0 40px;
     vertical-align: middle;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .sec4text {
     max-width: 681px;
     vertical-align: middle;
     margin-bottom: auto;
+    flex: 50%;
 }
 
 .sec4img {
     display: block;
+    flex: 50%;
 }
 .sec4img>div {
     display: block;
@@ -553,12 +558,12 @@ nav {
     margin-right: 15px;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 833px) {
     .section4 {
         margin: 0 40px;
         vertical-align: middle;
-        display: grid;
-        grid-template-columns: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -632,7 +637,7 @@ nav {
     letter-spacing: 0.1;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 833px) {
     .hero {
         grid-template-columns: 1fr;
     }
@@ -879,7 +884,7 @@ button.secondary {
     padding: 40px;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 833px) {
     .section1 {
         padding: 10px;
         padding-top: 30px;
@@ -901,7 +906,7 @@ button.secondary {
     }
     .mainmark {
         margin: 40px 40px;
-        gap: 20px;
+        /* gap: 20px; */
     }
     .mainmark img {
         width: 80%;
@@ -1034,5 +1039,141 @@ button.secondary {
     button.default {
         /* margin: 0px; */
         /* margin-bottom: 10px; */
+    }
+}
+
+@media(max-width: 374px) {
+    .section1 {
+        padding: 10px;
+        padding-top: 30px;
+    }
+    .section1 .part2 {
+        padding-top: 20px !important;
+        font-size: 24px !important;
+    }
+    .section1 .part3 {
+        padding-top: 20px !important;
+    }
+    .panelsubtitle {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+    .uniqueleverage-com {
+        padding: 0px 10px;
+    }
+    .mainmark {
+        margin: 40px 40px;
+        gap: 20px;
+    }
+    .mainmark img {
+        width: 80%;
+    }
+    nav {
+        display: none !important;
+    }
+    .toggle-nav {
+        display: block;
+        margin-left: auto;
+        cursor: pointer;
+    }
+    .herotext {
+        margin: 10px;
+    }
+    .herotext1, .herotext2, .herotext3 {
+        font-size: 24px !important;
+        line-height: 24px !important;
+    }
+    .herotitle {
+        display: none;
+    }
+    .herotitle-md {
+        display: block;
+    }
+    .mobile-nav {
+        display: block;
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        box-shadow: 0px 4px 2px lightgrey;
+        border-radius: 6px;
+        padding: 16px 30px;
+        background-color: white;
+        text-align: left;
+    }
+    .mobile-nav li {
+        line-height: 40px;
+    }
+    .mobile-nav button.default {
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+    }
+    .nav-list {
+        margin-bottom: 0px;
+    }
+    .sec2text, .section2, .sec4text, .section4 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sec2radio {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .sec2radio div, .sec3textradio div, .sec4radio div {
+        font-size: 16px !important;
+    }
+    .sec2radio img {
+        margin-right: 8px !important;
+    }
+    .sec2img > div, .sec3img > div, .sec4img > div {
+        margin-top: 20px;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sec3text {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sec3textradio, .sec4radio {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 20px 0px;
+    }
+    .mobile-question {
+        display: block;
+        font-weight: 400 !important;
+        color: grey;
+    }
+    .sec8-right {
+        display: none;
+    }
+    .sec-faq, .sec-support {
+        padding: 10px;
+    }
+    .actions {
+        text-align: center;
+    }
+    .section1 .imgsection {
+        display: flex;
+        overflow-x: scroll;
+    }
+    .section1 .imgsection>div>div {
+        width: 330px;
+    }
+}
+
+.actions {
+    display: none;
+}
+
+@media only screen and (max-width: 833px) {
+    .actions {
+      display: block;
     }
 }

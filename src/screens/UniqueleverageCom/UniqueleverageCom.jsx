@@ -3,6 +3,7 @@ import { FaqSection } from "../../components/FaqSection";
 import { DateCalendar } from "@mui/x-date-pickers/DateCalendar";
 import "./style.css";
 import "./newstyle.css";
+import Card from "../../components/Card";
 
 export const UniqueleverageCom = () => {
   const [navOpen, setNavOpen] = React.useState(false);
@@ -216,50 +217,19 @@ export const UniqueleverageCom = () => {
       <div className="hrbarcontainer">
         <div className="hrbar"></div>
       </div>
-      <div className="section3">
-        <div className="sec3text">
-          <div className="sec3texttitle">
-            Deliver The Right Vehicle To The Right Shopper With Dynamic Facebook & Instagram Ads
-          </div>
-          <div className="sec3textsmall">
-            Turn your live inventory into powerful automotive ads that automatically match the right body style to the
-            right shoppers. Further optimize your Facebook & Instagram ads by driving clicks to different destinations –
-            Website, Messenger, or use Facebook’s native forms + connect to your CRM.
-          </div>
-          <div className="sec3textradio">
-            <div>
-              <img src="/img/icon-8.svg" />
-              Popular Listing Websties
-            </div>
-            <div>
-              <img src="/img/icon-8.svg" />
-              Your Website Visitors
-            </div>
-            <div>
-              <img src="/img/icon-8.svg" />
-              Dominate Locally!
-            </div>
-          </div>
-          <div className="actions mb-4">
-            <button className="default">
-              Schedule a Demo
-              <img src="/img/svg-8.svg" alt="" style={{ marginLeft: "10px" }} />
-            </button>
-            <button className="secondary">Request Quote</button>
-          </div>
-        </div>
-        <div className="sec3img">
-          <div></div>
-        </div>
-      </div>
+      <Card title="Deliver The Right Vehicle To The Right Shopper With Dynamic Facebook & Instagram Ads"
+            desc="Turn your live inventory into powerful automotive ads that automatically match the right body style to the
+                right shoppers. Further optimize your Facebook & Instagram ads by driving clicks to different destinations –
+                Website, Messenger, or use Facebook’s native forms + connect to your CRM."
+            check1="Popular Listing Websties"
+            check2="Your Website Visitors"
+            check3="Dominate Locally!"
+      />
       <div className="hrbarcontainer">
         <div className="hrbar"></div>
       </div>
       <div className="section4">
-        <div className="sec4img">
-          <div></div>
-        </div>
-        <div className="sec4text">
+      <div className="sec4text">
           <div>
             <div className="sec4title">Transform low-funnel shoppers with VIN-Specific Lead Ads</div>
             <div className="sec4small">
@@ -294,35 +264,19 @@ export const UniqueleverageCom = () => {
             <button className="secondary">Request Quote</button>
           </div>
         </div>
+        <div className="sec4img">
+          <div></div>
+        </div>        
       </div>
       <div className="hrbarcontainer">
         <div className="hrbar"></div>
       </div>
-      <div className="section3">
-        <div className="sec3text">
-          <div className="sec3texttitle">Multiple Languages (¿Español?) Dealership Campaigns Proven To Convert</div>
-          <div className="sec3textsmall">
-            We hate cookie-cutter ads, too. Our Team works with you to create the perfect message.
-          </div>
-          <div className="sec3textradio">
-            <div>
-              <img src="/img/icon-8.svg" />
-              Custom dealership ads for any special
-            </div>
-            <div>
-              <img src="/img/icon-8.svg" />
-              Choose your own unique design
-            </div>
-            <div>
-              <img src="/img/icon-8.svg" />
-              Stand out from your competition
-            </div>
-          </div>
-        </div>
-        <div className="sec5img">
-          <div></div>
-        </div>
-      </div>
+      <Card title="Multiple Languages (¿Español?) Dealership Campaigns Proven To Convert"
+            desc="We hate cookie-cutter ads, too. Our Team works with you to create the perfect message."
+            check1="Custom dealership ads for any special"
+            check2="Choose your own unique design"
+            check3="Stand out from your competition"
+      />
       <div className="hrbarcontainer">
         <div className="hrbar"></div>
       </div>
