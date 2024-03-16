@@ -233,13 +233,7 @@ export const UniqueleverageCom = () => {
           <div>
             <div className="sec4title">Transform low-funnel shoppers with VIN-Specific Lead Ads</div>
             <div className="sec4small">
-              Convert low-funnel shoppers into CRM leads with our VIN lead ads; designed to display relevant vehicles
-              (based on VINs) to in- market shoppers within 3-7 days of when they last engaged with a VIN – when they’re
-              the hottest. Capture VIN-specific test drive leads and send car shoppers information directly to your CRM
-              or Facebook Messenger.
-              <br />
-              <br />
-              With VIN Lead Ads, you’ll make it easy for customers to:
+              Unique Leverage Meta’s powerful targeting options and hone in on users who live near your dealership, are in the market for a car, and match your ideal customer profile. Create localized ads to appear in their feeds and drive traffic to your website or dealership over the competition.
             </div>
             <div className="sec4radio">
               <div>
