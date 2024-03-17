@@ -7,6 +7,16 @@ import Card from "../../components/Card";
 
 export const UniqueleverageCom = () => {
   const [navOpen, setNavOpen] = React.useState(false);
+  const [active6, setActive6] = React.useState(-1);
+  const [active8, setActive8] = React.useState(0);
+
+  const handlePlusClick6 = (index) => {
+    setActive6(index);
+  };
+
+  const handleMinusClick6 = (index) => {
+    setActive6(-1);
+  };
 
   return (
     <div className="uniqueleverage-com">
@@ -217,23 +227,26 @@ export const UniqueleverageCom = () => {
       <div className="hrbarcontainer">
         <div className="hrbar"></div>
       </div>
-      <Card title="Deliver The Right Vehicle To The Right Shopper With Dynamic Facebook & Instagram Ads"
-            desc="Turn your live inventory into powerful automotive ads that automatically match the right body style to the
+      <Card
+        title="Deliver The Right Vehicle To The Right Shopper With Dynamic Facebook & Instagram Ads"
+        desc="Turn your live inventory into powerful automotive ads that automatically match the right body style to the
                 right shoppers. Further optimize your Facebook & Instagram ads by driving clicks to different destinations –
                 Website, Messenger, or use Facebook’s native forms + connect to your CRM."
-            check1="Popular Listing Websties"
-            check2="Your Website Visitors"
-            check3="Dominate Locally!"
+        check1="Popular Listing Websties"
+        check2="Your Website Visitors"
+        check3="Dominate Locally!"
       />
       <div className="hrbarcontainer">
         <div className="hrbar"></div>
       </div>
       <div className="section4">
-      <div className="sec4text">
+        <div className="sec4text">
           <div>
             <div className="sec4title">Transform low-funnel shoppers with VIN-Specific Lead Ads</div>
             <div className="sec4small">
-              Unique Leverage Meta’s powerful targeting options and hone in on users who live near your dealership, are in the market for a car, and match your ideal customer profile. Create localized ads to appear in their feeds and drive traffic to your website or dealership over the competition.
+              Unique Leverage Meta’s powerful targeting options and hone in on users who live near your dealership, are
+              in the market for a car, and match your ideal customer profile. Create localized ads to appear in their
+              feeds and drive traffic to your website or dealership over the competition.
             </div>
             <div className="sec4radio">
               <div>
@@ -260,16 +273,17 @@ export const UniqueleverageCom = () => {
         </div>
         <div className="sec4img">
           <div></div>
-        </div>        
+        </div>
       </div>
       <div className="hrbarcontainer">
         <div className="hrbar"></div>
       </div>
-      <Card title="Multiple Languages (¿Español?) Dealership Campaigns Proven To Convert"
-            desc="We hate cookie-cutter ads, too. Our Team works with you to create the perfect message."
-            check1="Custom dealership ads for any special"
-            check2="Choose your own unique design"
-            check3="Stand out from your competition"
+      <Card
+        title="Multiple Languages (¿Español?) Dealership Campaigns Proven To Convert"
+        desc="We hate cookie-cutter ads, too. Our Team works with you to create the perfect message."
+        check1="Custom dealership ads for any special"
+        check2="Choose your own unique design"
+        check3="Stand out from your competition"
       />
       <div className="hrbarcontainer">
         <div className="hrbar"></div>
@@ -286,27 +300,81 @@ export const UniqueleverageCom = () => {
         </div>
         <div className="section6 mt-4">
           <div className="content">
-            <div className="p-4 border-bottom border-1 support">
-              <div className="d-flex justify-content-between accordion">
-                <h5 className="text-white ">Superior Support</h5>
-                <img className="mb-3 cursor-pointer" src="/img/minus.svg" />
+            <div className={`${active6 === 0 ? "active" : ""} item p-4`}>
+              <div className={`d-flex justify-content-between accordion`}>
+                <h5 className={`${active6 === 0 ? "text-white" : "text--black"}`}>Superior Support</h5>
+                <img
+                  className={`cursor-pointer ${active6 !== 0 ? "d-block" : "d-none"}`}
+                  src="/img/icon-12.svg"
+                  onClick={() => handlePlusClick6(0)}
+                />
+                <img
+                  className={`cursor-pointer ${active6 === 0 ? "d-block" : "d-none"}`}
+                  src="/img/minus.svg"
+                  onClick={() => handleMinusClick6(0)}
+                />
               </div>
-              <div className="text-white mt-3">
+              <div className={`text-content text-white mt-3 ${active6 === 0 ? "d-block" : "d-none"}`}>
                 We don't just respond; we anticipate. Our support is about giving you the tools and knowledge to make
                 informed decisions.
               </div>
             </div>
-            <div className="d-flex justify-content-between align-items-center p-4 mt-4 support-card">
-              <h5>Ownership of Campaigns</h5>
-              <img src="/img/icon-12.svg" className="cursor-pointer" />
+            <div className={`${active6 === 1 ? "active" : ""} item p-4`}>
+              <div className={`d-flex justify-content-between accordion`}>
+                <h5 className={`${active6 === 1 ? "text-white" : "text--black"}`}>Ownership of Campaigns</h5>
+                <img
+                  className={`cursor-pointer ${active6 !== 1 ? "d-block" : "d-none"}`}
+                  src="/img/icon-12.svg"
+                  onClick={() => handlePlusClick6(1)}
+                />
+                <img
+                  className={`cursor-pointer ${active6 === 1 ? "d-block" : "d-none"}`}
+                  src="/img/minus.svg"
+                  onClick={() => handleMinusClick6(1)}
+                />
+              </div>
+              <div className={`text-content text-white mt-3 ${active6 === 1 ? "d-block" : "d-none"}`}>
+                We don't just respond; we anticipate. Our support is about giving you the tools and knowledge to make
+                informed decisions.
+              </div>
             </div>
-            <div className="d-flex justify-content-between align-items-center p-4 mt-4 support-card">
-              <h5>Education</h5>
-              <img src="/img/icon-12.svg" className="cursor-pointer" />
+            <div className={`${active6 === 2 ? "active" : ""} item p-4`}>
+              <div className={`d-flex justify-content-between accordion`}>
+                <h5 className={`${active6 === 2 ? "text-white" : "text--black"}`}>Education</h5>
+                <img
+                  className={`cursor-pointer ${active6 !== 2 ? "d-block" : "d-none"}`}
+                  src="/img/icon-12.svg"
+                  onClick={() => handlePlusClick6(2)}
+                />
+                <img
+                  className={`cursor-pointer ${active6 === 2 ? "d-block" : "d-none"}`}
+                  src="/img/minus.svg"
+                  onClick={() => handleMinusClick6(2)}
+                />
+              </div>
+              <div className={`text-content text-white mt-3 ${active6 === 2 ? "d-block" : "d-none"}`}>
+                We don't just respond; we anticipate. Our support is about giving you the tools and knowledge to make
+                informed decisions.
+              </div>
             </div>
-            <div className="d-flex justify-content-between align-items-center p-4 mt-4 support-card">
-              <h5>$5 can outperform $10</h5>
-              <img src="/img/icon-12.svg" className="cursor-pointer" />
+            <div className={`${active6 === 3 ? "active" : ""} item p-4`}>
+              <div className={`d-flex justify-content-between accordion`}>
+                <h5 className={`${active6 === 3 ? "text-white" : "text--black"}`}>$5 can outperform $10 </h5>
+                <img
+                  className={`cursor-pointer ${active6 !== 3 ? "d-block" : "d-none"}`}
+                  src="/img/icon-12.svg"
+                  onClick={() => handlePlusClick6(3)}
+                />
+                <img
+                  className={`cursor-pointer ${active6 === 3 ? "d-block" : "d-none"}`}
+                  src="/img/minus.svg"
+                  onClick={() => handleMinusClick6(3)}
+                />
+              </div>
+              <div className={`text-content text-white mt-3 ${active6 === 3 ? "d-block" : "d-none"}`}>
+                We don't just respond; we anticipate. Our support is about giving you the tools and knowledge to make
+                informed decisions.
+              </div>
             </div>
           </div>
           <div className="img"></div>
@@ -366,68 +434,169 @@ export const UniqueleverageCom = () => {
         </div>
         <div className="sec8-contents">
           <div className="sec8-left">
-            <div className="active-item">
-              <div className="active-item d-flex justify-content-between p-3">
+            <div className={`${active8 === 0 ? "active-item" : "item"}`}>
+              <div className="d-flex justify-content-between p-3">
                 <div className="active d-flex align-items-center ">
-                  <img src="/img/asked.svg" alt="" />
+                  <img src={`/img/${active8 === 0 ? "" : "un"}asked.svg`} alt="" />
                   <p className="mb-0 ml-2">Do I have to pay for updates?</p>
                 </div>
-                <img src="/img/asked-chevron.svg" alt="" />
+                <img
+                  src="/img/asked-chevron.svg"
+                  className={`${active8 === 0 ? "d-block" : "d-none"}`}
+                  onClick={() => setActive8(-1)}
+                />
+                <img
+                  src="/img/unasked-chevron.svg"
+                  className={`${active8 === 0 ? "d-none" : "d-block"}`}
+                  onClick={() => setActive8(0)}
+                />
               </div>
-              <p className="mobile-question mx-4">
+              <p className={` mx-4 ${active8 === 0 ? "mobile-question" : "d-none"} mobile-question`}>
                 No! We give constant updates to our software, add new features and you get it all for FREE! Because
                 UniqueLeverage is on the cloud, when we make an update or add new features, it's all yours!
               </p>
             </div>
-            <div className="item d-flex justify-content-between p-3">
-              <div className="d-flex align-items-center ">
-                <img src="/img/unasked.svg" alt="" />
-                <p className="mb-0 ml-2">How long are your contracts?</p>
+            <div className={`${active8 === 1 ? "active-item" : "item"}`}>
+              <div className="d-flex justify-content-between p-3">
+                <div className="active d-flex align-items-center ">
+                  <img src={`/img/${active8 === 1 ? "" : "un"}asked.svg`} alt="" />
+                  <p className="mb-0 ml-2">How long are your contracts</p>
+                </div>
+                <img
+                  src="/img/asked-chevron.svg"
+                  className={`${active8 === 1 ? "d-block" : "d-none"}`}
+                  onClick={() => setActive8(-1)}
+                />
+                <img
+                  src="/img/unasked-chevron.svg"
+                  className={`${active8 === 1 ? "d-none" : "d-block"}`}
+                  onClick={() => setActive8(1)}
+                />
               </div>
-              <img src="/img/unasked-chevron.svg" alt="" />
+              <p className={` mx-4 ${active8 === 1 ? "mobile-question" : "d-none"} mobile-question`}>2</p>
             </div>
-            <div className="item d-flex justify-content-between p-3">
-              <div className="d-flex align-items-center ">
-                <img src="/img/unasked.svg" alt="" />
-                <p className="mb-0 ml-2">If I have questions, is there someone I can talk to?</p>
+            <div className={`${active8 === 2 ? "active-item" : "item"}`}>
+              <div className="d-flex justify-content-between p-3">
+                <div className="active d-flex align-items-center ">
+                  <img src={`/img/${active8 === 2 ? "" : "un"}asked.svg`} alt="" />
+                  <p className="mb-0 ml-2">If I have questions, is there someone I can talk to?</p>
+                </div>
+                <img
+                  src="/img/asked-chevron.svg"
+                  className={`${active8 === 2 ? "d-block" : "d-none"}`}
+                  onClick={() => setActive8(-1)}
+                />
+                <img
+                  src="/img/unasked-chevron.svg"
+                  className={`${active8 === 2 ? "d-none" : "d-block"}`}
+                  onClick={() => setActive8(2)}
+                />
               </div>
-              <img src="/img/unasked-chevron.svg" alt="" />
+              <p className={` mx-4 ${active8 === 2 ? "mobile-question" : "d-none"} mobile-question`}>3</p>
             </div>
-            <div className="item d-flex justify-content-between p-3">
-              <div className="d-flex align-items-center ">
-                <img src="/img/unasked.svg" alt="" />
-                <p className="mb-0 ml-2">If I cancel my Unique Leverage account, will I lose my data?</p>
+            <div className={`${active8 === 3 ? "active-item" : "item"}`}>
+              <div className="d-flex justify-content-between p-3">
+                <div className="active d-flex align-items-center ">
+                  <img src={`/img/${active8 === 3 ? "" : "un"}asked.svg`} alt="" />
+                  <p className="mb-0 ml-2">If I cancel my Unique Leverage account, will I lost my data?</p>
+                </div>
+                <img
+                  src="/img/asked-chevron.svg"
+                  className={`${active8 === 3 ? "d-block" : "d-none"}`}
+                  onClick={() => setActive8(-1)}
+                />
+                <img
+                  src="/img/unasked-chevron.svg"
+                  className={`${active8 === 3 ? "d-none" : "d-block"}`}
+                  onClick={() => setActive8(3)}
+                />
               </div>
-              <img src="/img/unasked-chevron.svg" alt="" />
+              <p className={` mx-4 ${active8 === 3 ? "mobile-question" : "d-none"} mobile-question`}>4</p>
             </div>
-            <div className="item d-flex justify-content-between p-3">
-              <div className="d-flex align-items-center ">
-                <img src="/img/unasked.svg" alt="" />
-                <p className="mb-0 ml-2">Can I connect my DMS?</p>
+            <div className={`${active8 === 4 ? "active-item" : "item"}`}>
+              <div className="d-flex justify-content-between p-3">
+                <div className="active d-flex align-items-center ">
+                  <img src={`/img/${active8 === 4 ? "" : "un"}asked.svg`} alt="" />
+                  <p className="mb-0 ml-2">Can I connect my DMS?</p>
+                </div>
+                <img
+                  src="/img/asked-chevron.svg"
+                  className={`${active8 === 4 ? "d-block" : "d-none"}`}
+                  onClick={() => setActive8(-1)}
+                />
+                <img
+                  src="/img/unasked-chevron.svg"
+                  className={`${active8 === 4 ? "d-none" : "d-block"}`}
+                  onClick={() => setActive8(4)}
+                />
               </div>
-              <img src="/img/unasked-chevron.svg" alt="" />
+              <p className={` mx-4 ${active8 === 4 ? "mobile-question" : "d-none"} mobile-question`}>5</p>
             </div>
-            <div className="item d-flex justify-content-between p-3">
-              <div className="d-flex align-items-center ">
-                <img src="/img/unasked.svg" alt="" />
-                <p className="mb-0 ml-2">Do I have to install anything?</p>
+            <div className={`${active8 === 5 ? "active-item" : "item"}`}>
+              <div className="d-flex justify-content-between p-3">
+                <div className="active d-flex align-items-center ">
+                  <img src={`/img/${active8 === 5 ? "" : "un"}asked.svg`} alt="" />
+                  <p className="mb-0 ml-2">Do I have to install anything?</p>
+                </div>
+                <img
+                  src="/img/asked-chevron.svg"
+                  className={`${active8 === 5 ? "d-block" : "d-none"}`}
+                  onClick={() => setActive8(-1)}
+                />
+                <img
+                  src="/img/unasked-chevron.svg"
+                  className={`${active8 === 5 ? "d-none" : "d-block"}`}
+                  onClick={() => setActive8(5)}
+                />
               </div>
-              <img src="/img/unasked-chevron.svg" alt="" />
+              <p className={` mx-4 ${active8 === 5 ? "mobile-question" : "d-none"} mobile-question`}>6</p>
             </div>
-            <div className="item d-flex justify-content-between p-3">
-              <div className="d-flex align-items-center ">
-                <img src="/img/unasked.svg" alt="" />
-                <p className="mb-0 ml-2">If I don't like UniqueLeverage, how do I cancel?</p>
+            <div className={`${active8 === 6 ? "active-item" : "item"}`}>
+              <div className="d-flex justify-content-between p-3">
+                <div className="active d-flex align-items-center ">
+                  <img src={`/img/${active8 === 6 ? "" : "un"}asked.svg`} alt="" />
+                  <p className="mb-0 ml-2">If I don't like UniqueLeverage, how do I cancel?</p>
+                </div>
+                <img
+                  src="/img/asked-chevron.svg"
+                  className={`${active8 === 6 ? "d-block" : "d-none"}`}
+                  onClick={() => setActive8(-1)}
+                />
+                <img
+                  src="/img/unasked-chevron.svg"
+                  className={`${active8 === 6 ? "d-none" : "d-block"}`}
+                  onClick={() => setActive8(6)}
+                />
               </div>
-              <img src="/img/unasked-chevron.svg" alt="" />
+              <p className={` mx-4 ${active8 === 6 ? "mobile-question" : "d-none"} mobile-question`}>7</p>
             </div>
           </div>
           <div className="sec8-right">
-            <h5>Do I have to pay for updates?</h5>
-            <p>
-              No! We give constant updates to our software, add new features and you get it all for FREE! Because
-              UniqueLeverage is on the cloud, when we make an update or add new features, it's all yours!
-            </p>
+            <div className={`${active8 === 0 ? "desktop-show" : "d-none"}`}>
+              <h5>Do I have to pay for updates?</h5>
+              <p>
+                No! We give constant updates to our software, add new features and you get it all for FREE! Because
+                UniqueLeverage is on the cloud, when we make an update or add new features, it's all yours!
+              </p>
+            </div>
+            <div className={`${active8 === 1 ? "desktop-show" : "d-none"}`}>
+              <p>2</p>
+            </div>
+            <div className={`${active8 === 2 ? "desktop-show" : "d-none"}`}>
+              <p>3</p>
+            </div>
+            <div className={`${active8 === 3 ? "desktop-show" : "d-none"}`}>
+              <p>4</p>
+            </div>
+            <div className={`${active8 === 4 ? "desktop-show" : "d-none"}`}>
+              <p>5</p>
+            </div>
+            <div className={`${active8 === 5 ? "desktop-show" : "d-none"}`}>
+              <p>6</p>
+            </div>
+            <div className={`${active8 === 6 ? "desktop-show" : "d-none"}`}>
+              <p>7</p>
+            </div>
           </div>
         </div>
       </div>
