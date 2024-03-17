@@ -770,7 +770,6 @@ nav {
 .sec8-left .item {
     background-color: white;
     box-shadow: 0px 0px 1px 1px #00000009;
-    cursor: pointer;
 }
 .sec8-left .item:hover {
     background-color: #FAFBFF;

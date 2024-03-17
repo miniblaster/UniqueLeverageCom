@@ -442,12 +442,12 @@ export const UniqueleverageCom = () => {
                 </div>
                 <img
                   src="/img/asked-chevron.svg"
-                  className={`${active8 === 0 ? "d-block" : "d-none"}`}
+                  className={`${active8 === 0 ? "d-block" : "d-none"} cursor-pointer`}
                   onClick={() => setActive8(-1)}
                 />
                 <img
                   src="/img/unasked-chevron.svg"
-                  className={`${active8 === 0 ? "d-none" : "d-block"}`}
+                  className={`${active8 === 0 ? "d-none" : "d-block"} cursor-pointer`}
                   onClick={() => setActive8(0)}
                 />
               </div>
@@ -464,12 +464,12 @@ export const UniqueleverageCom = () => {
                 </div>
                 <img
                   src="/img/asked-chevron.svg"
-                  className={`${active8 === 1 ? "d-block" : "d-none"}`}
+                  className={`${active8 === 1 ? "d-block" : "d-none"} cursor-pointer`}
                   onClick={() => setActive8(-1)}
                 />
                 <img
                   src="/img/unasked-chevron.svg"
-                  className={`${active8 === 1 ? "d-none" : "d-block"}`}
+                  className={`${active8 === 1 ? "d-none" : "d-block"} cursor-pointer`}
                   onClick={() => setActive8(1)}
                 />
               </div>
@@ -483,12 +483,12 @@ export const UniqueleverageCom = () => {
                 </div>
                 <img
                   src="/img/asked-chevron.svg"
-                  className={`${active8 === 2 ? "d-block" : "d-none"}`}
+                  className={`${active8 === 2 ? "d-block" : "d-none"} cursor-pointer`}
                   onClick={() => setActive8(-1)}
                 />
                 <img
                   src="/img/unasked-chevron.svg"
-                  className={`${active8 === 2 ? "d-none" : "d-block"}`}
+                  className={`${active8 === 2 ? "d-none" : "d-block"} cursor-pointer`}
                   onClick={() => setActive8(2)}
                 />
               </div>
@@ -502,12 +502,12 @@ export const UniqueleverageCom = () => {
                 </div>
                 <img
                   src="/img/asked-chevron.svg"
-                  className={`${active8 === 3 ? "d-block" : "d-none"}`}
+                  className={`${active8 === 3 ? "d-block" : "d-none"} cursor-pointer`}
                   onClick={() => setActive8(-1)}
                 />
                 <img
                   src="/img/unasked-chevron.svg"
-                  className={`${active8 === 3 ? "d-none" : "d-block"}`}
+                  className={`${active8 === 3 ? "d-none" : "d-block"} cursor-pointer`}
                   onClick={() => setActive8(3)}
                 />
               </div>
@@ -521,12 +521,12 @@ export const UniqueleverageCom = () => {
                 </div>
                 <img
                   src="/img/asked-chevron.svg"
-                  className={`${active8 === 4 ? "d-block" : "d-none"}`}
+                  className={`${active8 === 4 ? "d-block" : "d-none"} cursor-pointer`}
                   onClick={() => setActive8(-1)}
                 />
                 <img
                   src="/img/unasked-chevron.svg"
-                  className={`${active8 === 4 ? "d-none" : "d-block"}`}
+                  className={`${active8 === 4 ? "d-none" : "d-block"} cursor-pointer`}
                   onClick={() => setActive8(4)}
                 />
               </div>
@@ -540,12 +540,12 @@ export const UniqueleverageCom = () => {
                 </div>
                 <img
                   src="/img/asked-chevron.svg"
-                  className={`${active8 === 5 ? "d-block" : "d-none"}`}
+                  className={`${active8 === 5 ? "d-block" : "d-none"} cursor-pointer`}
                   onClick={() => setActive8(-1)}
                 />
                 <img
                   src="/img/unasked-chevron.svg"
-                  className={`${active8 === 5 ? "d-none" : "d-block"}`}
+                  className={`${active8 === 5 ? "d-none" : "d-block"} cursor-pointer`}
                   onClick={() => setActive8(5)}
                 />
               </div>
@@ -559,12 +559,12 @@ export const UniqueleverageCom = () => {
                 </div>
                 <img
                   src="/img/asked-chevron.svg"
-                  className={`${active8 === 6 ? "d-block" : "d-none"}`}
+                  className={`${active8 === 6 ? "d-block" : "d-none"} cursor-pointer`}
                   onClick={() => setActive8(-1)}
                 />
                 <img
                   src="/img/unasked-chevron.svg"
-                  className={`${active8 === 6 ? "d-none" : "d-block"}`}
+                  className={`${active8 === 6 ? "d-none" : "d-block"} cursor-pointer`}
                   onClick={() => setActive8(6)}
                 />
               </div>
